@@ -1,0 +1,64 @@
+<!-- ! 치고 엔터누르면 초기포맷 자동생성 -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form 요소 살펴보기</title>
+  </head>
+  <body>
+    <h2>로그인 해주세요</h2>
+
+    <form>
+      <div>
+        <label for="userid">ID:</label>
+        <input
+          id="userid"
+          type="text"
+          name="userid"
+          placeholder="ID를 입력하세요"
+          required
+        />
+      </div>
+
+      <div>
+        <label for="password">비밀번호:</label>
+        <input
+          id="password"
+          type="password"
+          name="password"
+          placeholder="비밀번호를 입력하세요"
+          required
+        />
+      </div>
+
+      <button type="submit">로그인</button>
+    </form>
+    <form>
+      <!-- 체크박스 -->
+      <h5>개발환경 설치</h5>
+      <input id="vscode" type="checkbox" name="setup" value="vscode" />
+      <label for="vscode">VS Code 설치</label>
+
+      <input id="node" type="checkbox" name="setup" value="node" />
+      <label for="node">Node 설치</label>
+
+      <input id="git" type="checkbox" name="setup" value="git" />
+      <label for="git">Git 설치</label>
+
+      <input id="claudecode" type="checkbox" name="setup" value="claudecode" />
+      <label for="claudecode">클로드 코드 설치</label>
+
+      <!-- 라디오 버튼 -->
+      <h5>강의 난이도</h5>
+      <input id="Beginner" type="radio" name="level" value="Beginner" />
+      <label for="Beginner">입문</label>
+
+      <input id="Intermediate" type="radio" name="level" value="Intermediate" />
+      <label for="Intermediate">중급</label>
+
+      <input id="Advanced" type="radio" name="level" value="Advanced" />
+      <label for="Advanced">고급</label>
+    </form>
+  </body>
+</html>
