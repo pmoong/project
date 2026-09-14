@@ -1,0 +1,15 @@
+/* div{
+  background-color: aqua;
+  padding: 20px;
+} */
+
+/* 선택자 */
+#textblock {
+  background-color: aqua;
+  padding: 20px;
+}
+
+.textbox {
+  background-color: red;
+  opacity: 0.8;
+}
